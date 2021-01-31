@@ -45,7 +45,7 @@ input[name="search"]:focus {
 }
 
 #searchform {
-    margin: auto 20px;
+    margin: auto 12px;
 }
 
 .btn-search,
@@ -153,6 +153,9 @@ ul li {
 .right-content {
     width: 84vw;
     float: right;
+    background: rgb(246, 245, 245);
+    height: 100vh;
+    box-shadow: inset 1px 1px 12px #cacaca;
 }
 .main-head {
     border-bottom: 1px solid #eee;
