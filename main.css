@@ -151,6 +151,7 @@ ul li {
 }
 
 .right-content {
+    padding:0 20px;
     width: 84vw;
     float: right;
     background: rgb(246, 245, 245);
@@ -170,4 +171,28 @@ ul li {
     background: #ededed;
     padding:3px;
     border-radius: 10px;
+}
+.last-view img{
+    width:100%;
+    
+}
+.last-view {
+    box-shadow: 1px 1px 12px #eee;
+}
+.list-post {
+    /* border-top:1px solid rgb(224, 224, 224); */
+    border-bottom:1px solid rgb(224, 224, 224);
+
+}
+.list-post:hover {
+    background: #ededed;
+}
+.
+.right-list {
+    /* border-right:1px solid rgb(190, 190, 190); */
+    cursor: pointer;
+}
+.right-list:hover {
+    /* border-right:1px solid rgb(190, 190, 190); */
+    cursor: pointer;
 }
