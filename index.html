@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Driver ReMake</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script src="./main.js"></script>
     <link rel="stylesheet" href="main.css">
@@ -16,7 +20,7 @@
     <div class="header">
         <div class="logo"> <img src="./images/logo-driver.png" alt="logo"></div>
         <div class="search">
-            <form id="searchform" action="" method="get">
+            <form id="searchform">
                 <button class="btn-search"> <i class="fa fa-search"></i> </button>
                 <input type="text" name="search" placeholder="Search keyword now....." />
                 <button class="btn-more-search"> <i class="fa fa-arrow-alt-down"></i> </button>
@@ -44,6 +48,40 @@
 
     </div>
     <div class="clearfix"></div>
+    <div class="main">
+
+        <div class="left-sidebar">
+            <div class="">
+                <button class="btn-new"><i class="fa fa-1x fa-plus "> Mới </i></button>
+            </div>
+            <div class="list">
+                <ul class="list-btn">
+                    <li class="btn-item"><i class="fa fa-magic" aria-hidden="true"></i> Driver của tôi</li>
+                    <li class="btn-item"><i class="fa fa-address-book" aria-hidden="true"></i> Driver của tôi</li>
+                    <li class="btn-item"><i class="fa fa-venus" aria-hidden="true"></i> Driver của tôi</li>
+                    <li class="btn-item"><i class="fas fa-hexagon    "></i> Driver của tôi</li>
+                    <li class="btn-item"><i class="fa fa-laptop" aria-hidden="true"></i> Driver của tôi</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-content">
+            <div class="main-head">
+                <div class="dropdown">
+                  <select name="select-ver" id="select-ver">
+                    <option value="check 1"> Check 1</option>
+                    <option value="check 2"> Check 2</option>
+                    <option value="check 3"> Check 3</option>
+                    <option value="check 4"> Check 4</option>
+
+                  </select>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 </body>
 
 </html>

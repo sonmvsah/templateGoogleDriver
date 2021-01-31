@@ -105,3 +105,66 @@ ul li {
     width: 50px;
     height: 50px;
 }
+
+.left-sidebar {
+    border-right: 1px solid #eee ;
+    width: 16vw;
+    float: left;
+    
+}
+.btn-new{
+    margin: 20px 0px 0px 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    background: #e2e2e2;
+    cursor: pointer;
+    color: rgb(73, 73, 73);
+    width: 10vw;
+}
+.btn-new:hover {
+    background: #fff;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.list-btn {
+    padding: 10px;
+    margin: 0px 0px 0px 20px;
+}
+.list ul li{
+ margin: 10px 0 ;
+ cursor: pointer;
+ padding:10px;
+ 
+}
+.list ul li:hover {
+    background: #eeeeee;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    padding:10px;
+    transition: 0.3s ease;
+
+}
+.list ul li i{
+    margin-right: 15px;
+    width: 20px;
+}
+
+.right-content {
+    width: 84vw;
+    float: right;
+}
+.main-head {
+    border-bottom: 1px solid #eee;
+    background: #eee;
+}
+.dropdown {
+    padding:4px;
+    box-shadow: 1px 1px 12px #eee;
+}
+#select-ver {
+    border: none;
+    background: #ededed;
+    padding:3px;
+    border-radius: 10px;
+}
